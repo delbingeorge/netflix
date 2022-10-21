@@ -1,0 +1,104 @@
+.hero-section {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.712)), url(../../images/hero-bg.jpg);
+    min-height: 95vh;
+    border-bottom: 10px solid #222;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-div {
+    width: 75%;
+}
+
+.header-div img {
+    width: 130px;
+}
+
+.header-btn {
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-btn select {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 5px;
+    outline: none;
+}
+
+option {
+    background-color: #515252;
+    color: #fff;
+}
+
+.header-btn button {
+    background-color: var(--primary-red);
+    color: #fff;
+    padding: 5px 25px;
+    outline: none;
+    cursor: pointer;
+}
+
+.hero-content {
+    color: #fff;
+    /* height: 70vh; */
+    padding: 15rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content h1 {
+    text-align: center;
+    line-height: 55px;
+    font-size: 3.4rem;
+}
+
+.hero-content p {
+    padding: 10px;
+}
+
+.email-submit {
+    padding: 10px;
+}
+
+.email-submit input {
+    padding: 10px 205px 10px 0;
+    outline: none;
+}
+
+.email-submit button {
+    padding: 11px 45px;
+    outline: none;
+    text-transform: uppercase;
+    background-color: var(--primary-red);
+    color: #fff;
+    cursor: pointer;
+}
+
+.info-div {
+    /* min-height: 55vh; */
+    padding: 0 0 4rem 0;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 10px solid #222;
+}
+
+.info-div div h1 {
+    font-size: 3rem;
+}
+
+.info-div div p {
+    font-size: 1.2rem;
+    font-weight:lighter;
+}
