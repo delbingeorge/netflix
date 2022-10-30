@@ -1,6 +1,6 @@
 .hero-section {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.712)), url(../../images/hero-bg.jpg);
-    min-height: 95vh;
+    min-height: 100vh;
     border-bottom: 10px solid #222;
 }
 
@@ -39,15 +39,17 @@ option {
 .header-btn button {
     background-color: var(--primary-red);
     color: #fff;
-    padding: 5px 25px;
+    padding: 8px 25px;
     outline: none;
     cursor: pointer;
+    border-radius: 6px;
 }
 
 .hero-content {
     color: #fff;
     /* height: 70vh; */
-    padding: 15rem 0 0 0;
+    /* padding: 15rem 0 0 0; */
+    height: 85vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,16 +68,23 @@ option {
 
 .email-submit {
     padding: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .email-submit input {
-    padding: 10px 205px 10px 0;
+    padding: 20px 200px 16px 40px;
+    border: none;
+    font-size: 1rem;
+}
+
+.email-submit input:focus {
     outline: none;
 }
 
 .email-submit button {
-    padding: 11px 45px;
-    outline: none;
+    padding: 20px 45px;
+    border: none;
     text-transform: uppercase;
     background-color: var(--primary-red);
     color: #fff;
@@ -84,14 +93,18 @@ option {
 
 .info-div {
     /* min-height: 55vh; */
-    padding: 0 0 4rem 0;
+    padding: 4rem 0;
     background-color: #000;
     color: #fff;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: space-around;
     border-bottom: 10px solid #222;
+}
+
+.info-div img {
+    width: 450px;
 }
 
 .info-div div h1 {
@@ -100,5 +113,338 @@ option {
 
 .info-div div p {
     font-size: 1.2rem;
-    font-weight:lighter;
+    font-weight: lighter;
+}
+
+.faq-section {
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    border-bottom: 10px solid #222;
+}
+
+.faq-head h1 {
+    color: white;
+}
+
+.faq-btn {
+    margin-top: 10px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+    height: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 1.5rem;
+    background-color: #515252;
+    color: #fff;
+    border: none;
+}
+
+.faq-content {
+    margin-top: 1px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+    height: 500px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 1.5rem;
+    background-color: #515252;
+    color: #fff;
+}
+
+.faq-email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+footer {
+    min-height: 50vh;
+    background-color: black;
+
+    color: #515252;
+}
+
+footer p {
+    padding: 2rem 0 0 7rem;
+    color: #515252;
+}
+
+.footer-div {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-div div {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-div div a {
+    color: #515252;
+    text-decoration: none;
+}
+
+.foot-btn {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 5px;
+    margin-left: 7.3rem;
+    margin-top: 2rem;
+    outline: none;
+}
+
+.foot-btn select option {
+    background-color: #515252;
+    color: #fff;
+}
+
+.sec-three h1 {
+    color: #fff;
+    font-size: 40px;
+    padding: 50px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 869px) {
+    .hero-section {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.712)),
+            url(../../images/hero-bg.jpg);
+        min-height: 100vh;
+        border-bottom: 10px solid #222;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header-div {
+        width: 40%;
+    }
+
+    .header-div img {
+        width: 100px;
+    }
+
+    .header-btn {
+        width: 60%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .header-btn select {
+        color: #fff;
+        background-color: rgba(255, 255, 255, 0);
+        padding: 5px 1px;
+        outline: none;
+    }
+
+    option {
+        background-color: #515252;
+        color: #fff;
+    }
+
+    .header-btn button {
+        background-color: var(--primary-red);
+        color: #fff;
+        padding: 2px 5px;
+        outline: none;
+        cursor: pointer;
+        border-radius: 6px;
+    }
+
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-content h1 {
+        text-align: center;
+        line-height: 55px;
+        font-size: 2.2rem;
+    }
+
+    .hero-content p {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .email-submit {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .email-submit input {
+        padding: 10px 12px;
+        border: none;
+        font-size: 0.8rem;
+    }
+
+    .email-submit input:focus {
+        outline: none;
+    }
+
+    .email-submit button {
+        padding: 10px;
+        border: none;
+        text-transform: uppercase;
+        background-color: var(--primary-red);
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .info-div {
+        /* min-height: 55vh; */
+        padding: 4rem 0;
+        background-color: #000;
+        color: #fff;
+        display: flex;
+        /* flex-wrap: wrap; */
+        align-items: center;
+        justify-content: space-around;
+        border-bottom: 10px solid #222;
+        flex-direction: column;
+    }
+
+    .info-div img {
+        width: 250px;
+    }
+
+    .info-div div h1 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .info-div div p {
+        font-size: 0.8rem;
+        text-align: center;
+        font-weight: lighter;
+    }
+
+    .faq-section {
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        border-bottom: 10px solid #222;
+    }
+
+    .faq-head h1 {
+        font-size: 1.3rem;
+        color: white;
+    }
+
+    .faq-btn {
+        margin-top: 10px;
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        justify-content: space-between;
+        width: 300px;
+        height: 55px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 1rem;
+        background-color: #515252;
+        color: #fff;
+        border: none;
+    }
+
+    .faq-content {
+        margin-top: 1px;
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        justify-content: space-between;
+        width: 300px;
+        height: 400px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 1rem;
+        background-color: #515252;
+        color: #fff;
+    }
+
+    .faq-email {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    .faq-email p {
+        margin: 5px 20px;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+    footer p {
+        padding: 10px 0 10px 20px;
+    }
+
+    .footer-div {
+        padding-top: 2rem;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .footer-div div {
+        margin: 10px 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-div div a {
+        color: #515252;
+        text-decoration: none;
+    }
+
+    .foot-btn {
+        margin: 10px 0 10px 20px;
+        width: 25%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .foot-btn select {
+        color: #fff;
+        background-color: rgba(255, 255, 255, 0);
+        padding: 5px;
+        outline: none;
+    }
+
+    .foot-btn select option {
+        background-color: #515252;
+        color: #fff;
+    }
+
+    .sec-three h1 {
+        color: #fff;
+        font-size: 40px;
+        padding: 50px;
+        text-align: center;
+    }
 }

@@ -25,8 +25,8 @@ function Hero() {
                     <p>Watch anywhere. Cancel anytime.</p>
                     <p>Ready to watch? Enter your email to create or restart your membership.</p>
                     <div className="email-submit">
-                        <input type="email" placeholder="email here"></input>
-                        <button>Sign UP</button>
+                        <input type="email" placeholder="Email here"></input>
+                        <button>Get Started ></button>
                     </div>
                 </div>
             </div>

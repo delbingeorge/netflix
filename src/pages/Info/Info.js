@@ -6,6 +6,7 @@ import tvImgTwo from "../../images/tv_1.gif";
 import mobile from "../../images/mobile-0819.jpg";
 import kids from "../../images/kids-tv.png";
 function Info() {
+   
     return (
         <div>
             <section className="info-section">
@@ -17,7 +18,6 @@ function Info() {
                             more.
                         </p>
                     </div>
-
                     <img src={tvImgOne}></img>
                 </div>
                 <div className="info-div">
