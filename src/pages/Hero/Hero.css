@@ -293,9 +293,9 @@ footer p {
     }
 
     .email-submit input {
-        padding: 10px 12px;
+        padding: 10px 15px;
         border: none;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 
     .email-submit input:focus {
@@ -303,12 +303,13 @@ footer p {
     }
 
     .email-submit button {
-        padding: 10px;
+        padding: 10px 15px;
         border: none;
         text-transform: uppercase;
         background-color: var(--primary-red);
         color: #fff;
         cursor: pointer;
+        font-size: 0.6rem;
     }
 
     .info-div {
